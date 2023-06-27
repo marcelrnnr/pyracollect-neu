@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Willkommen bei Pyracollect</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="showImageKlassisch(1),showImageWasser(1),showImageUmwelt(1)">
+
+  <header>
+    <div class="header-wrapper">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/Pyrramide_Logo.png" alt="Pfanner Logo" width="auto" height="70"> </a>
+
+        </div>
+        <div class="navbar-flex no-mobile no-tablet">
+          <ul>
+            <li><a href="#">Produkte</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Pyrawissen</a></li>
+            <li><a href="#">Ägyptenreise</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </div>
+
+        <div class="navbar-icons">
+          <div class="hamburger-menu no-desktop">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+
+            <ul class="menu__box">
+              <li><a class="menu__item" href="#">Produkte</a></li>
+              <li><a class="menu__item" href="#">Über uns</a></li>
+              <li><a class="menu__item" href="#">Pyrawissen</a></li>
+              <li><a class="menu__item" href="#">Ägyptenreise</a></li>
+              <li><a class="menu__item" href="#">Kontakt</a></li>
+            </ul>
+          </div>
+          <li><a href="#"><img class="search-icon" src="images/ClassicPyramids/icons/Icon feather-search.png"
+                alt="search icon" width="auto" height="17"></a></li>
+          <div class="language-logo">
+            <li><a href="#"><img class="no-mobile no-tablet" src="images/flag.webp" alt="language" width="auto"
+                  height="15"></a></li>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="product-section">
+      <section class="panel product-grid product1">
+        <div class="under-header">
+          <img src="images/ClassicPyramidBannerwithoutlogo.png" alt="Produktkette1">
+        </div>
+        <div class="product-card">
+          <div class="headline-container">
+            <div class="headline-item">
+              <h2>Klassische Pyramiden</h2>
+            </div>
+          </div>
+          <div class="content-container">
+
+            <div id="imageContainer" class="img-container"> 
+              <img src="images/ClassicPyramids/REDnormalPyramid.png" alt="Image 1" class="imageKlassik" id="imageKlassik1">
+              <img src="images/ClassicPyramids/blueNormalPyramid.png" alt="Image 2" class="imageKlassik" id="imageKlassik2">
+              <img src="images/ClassicPyramids/greenNormalPyramid.png" alt="Image 3" class="imageKlassik" id="imageKlassik3">
+              <img src="images/ClassicPyramids/yellowNormalPyramid.png" alt="Image 4" class="imageKlassik" id="imageKlassik4">
+              <img src="images/ClassicPyramids/orangeNormalPyramid.png" alt="Image 5" class="imageKlassik" id="imageKlassik5">
+            </div>
+
+
+
+
+
+           
+            <div class="text-container">
+              <h3>Infos</h3>
+              <p>- Klassiker unter den Pyramiden<br>
+                - hochglanz Farben<br>
+                - 200g Gewicht<br>
+                - zum sammeln, tauschen, dekorieren
+              </p>
+              <p class="no-mobile">
+                Mit ihren glatten Oberflächen und präzisen Kanten laden sie dazu ein, sie in die Hand zu nehmen und
+                ihre
+                symmetrische Schönheit zu bewundern. Ihre vielfältigen Farben und Muster lassen keine Langeweile
+                aufkommen
+                und machen jedes Stück zu einem einzigartigen Sammlerobjekt.</p>
+              <br>
+              <br>
+
+              <div class="sorten-Container">
+
+                <div class="color-button">
+                  <button class="sorten-buttons" onclick="showImageKlassisch(1)" autofocus><img
+                      src="images/ClassicPyramids/icons/Polygon 2.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageKlassisch(2)"><img
+                      src="images/ClassicPyramids/icons/Polygon 9.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageKlassisch(3)"><img
+                      src="images/ClassicPyramids/icons/Polygon 3.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageKlassisch(4)"><img
+                      src="images/ClassicPyramids/icons/Polygon 4.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageKlassisch(5)"><img
+                      src="images/ClassicPyramids/icons/Polygon 5.png" alt="" width="auto" height="20px"></button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="panel product-grid product2">
+        <div class="under-header">
+          <img src="images/Section2/baner_split2height.png" alt="Produktkette2">
+        </div>
+        <div class="product-card">
+          <div class="headline-container">
+            <h2 class="headline-item">Wasserpyramiden</h2>
+          </div>
+          <div class="content-container">
+
+            <div id="imageContainer" class="img-container"> 
+              <img src="images/Section2/pinkWaterPyramid.png" alt="Image 1" class="imageWasser" id="imageWasser1">
+              <img src="images/Section2/orangeWaterPyramid.png" alt="Image 2" class="imageWasser" id="imageWasser2">
+              <img src="images/Section2/blueWaterPyramid.png" alt=Image 3" class="imageWasser" id="imageWasser3">
+              <img src="images/Section2/greenWaterPyramid.png" alt="Image 4" class="imageWasser" id="imageWasser4">
+              <img src="images/Section2/redWaterPyramid.png" alt="Image 5" class="imageWasser" id="imageWasser5">
+            </div>
+
+            <div class="text-container">
+              <h3>Infos</h3>
+              <p>- Aufblasbare Pyramide <br>
+                - knallige Farben <br>
+                - 100% Spaß im Wasser <br>
+                - sammeln, tauschen, spielen
+              </p>
+              <p class="no-mobile">Die Water Pyramids sind ein Hit für Poolpartys, Strandtage oder sogar für deinen
+                eigenen Garten. Mit
+                ihrer einzigartigen Pyramidenform sind sie der Blickfang schlechthin. Deine Freunde werden begeistert
+                sein
+                und sich darum reißen, mit diesen lustigen aufblasbaren Pyramiden zu spielen.</p>
+              <br>
+              <br>
+              <div class="sorten-Container">
+
+                <div class="color-button">
+                  <button class="sorten-buttons" onclick="showImageWasser(1)" autofocus><img
+                      src="images/Section2/Icons/Polygon 7.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageWasser(2)"><img
+                      src="images/Section2/Icons/Polygon 6.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageWasser(3)"><img
+                      src="images/Section2/Icons/Polygon 9.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageWasser(4)"><img
+                      src="images/Section2/Icons/Polygon 8.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageWasser(5)"><img
+                      src="images/Section2/Icons/Polygon 10.png" alt="" width="auto" height="20px"></button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel product-grid product3">
+        <div class="under-header">
+          <img src="images/section3/ecoPyramidbanner.png" alt="Produktkette3">
+        </div>
+        <div class="product-card">
+          <div class="headline-container">
+            <h2 class="headline-item">Umweltfreundliche Pyramiden</h2>
+          </div>
+          <div class="content-container">
+
+            <div id="imageContainer" class="img-container"> 
+              <img src="images/section3/bambooPyramid_produkt.png" alt="Image 1" class="imageUmwelt" id="imageUmwelt1">
+              <img src="images/section3/EcoKartonPyramid.png" alt="Image 2" class="imageUmwelt" id="imageUmwelt2">
+              <img src="images/section3/EcoHolzPyramid.png" alt="Image 3" class="imageUmwelt" id="imageUmwelt3">
+            </div>
+
+            <div class="text-container">
+              <h3>Infos</h3>
+              <p>- Umweltfreundlich <br>
+                - 100% nachhaltiges Material <br>
+                - einzigartiger Hingucker <br>
+                - Dekoartikel
+              </p>
+              <p class="no-mobile">Die Eco Pyramids sind wahre Meisterwerke der Nachhaltigkeit. Sie werden aus
+                recycelten und
+                umweltfreundlichen Materialien hergestellt, um unseren Planeten zu schützen und eine grüne Zukunft
+                zu
+                fördern. Mit jedem Kauf einer Eco Pyramid trägst du aktiv zum Erhalt unserer Umwelt bei.</p>
+              <br>
+              <br>
+              <div class="sorten-Container">
+
+                <div class="color-button">
+                  <button class="sorten-buttons" onclick="showImageUmwelt(1)" autofocus><img
+                      src="images/section3/ICON/PNG/Element 2.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageUmwelt(2)"><img
+                      src="images/section3/ICON/PNG/Element 1.png" alt="" width="auto" height="20px"></button>
+                  <button class="sorten-buttons" onclick="showImageUmwelt(3)"><img
+                      src="images/section3/ICON/PNG/Element 3.png" alt="" width="auto" height="20px"></button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-wrapper">
+      <div class="texte">
+        <p>&copy; 2023 Pyracollect. Alle Rechte vorbehalten.</p>
+        <div class="footer-rechts">
+          <ul>
+            <li><a href="#">SITE MAP</a></li>
+            <li><a href="#">IMPRESSUM</a></li>
+            <li><a href="#">AGB</a></li>
+            <li><a href="#">DATENSCHUTZ</a></li>
+            <li><a href="#">COOKIES</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="line"></div>
+    </div>
+  </footer>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollToPlugin.min.js"></script>
+  <script defer src="script.js"></script>
+</body>
+
+</html>
